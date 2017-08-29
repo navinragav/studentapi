@@ -15,8 +15,6 @@ namespace BetterEnglishAPI.Controllers
     public class StudentsController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
-        // GET: api/Students
    
         public IQueryable<Student> GetStudents()
         {
